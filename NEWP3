@@ -1,0 +1,14 @@
+# Elif statement in python
+"""
+0 N    No fine
+1-5    0.5
+5-10   1
+10-30  5
+>30    Membership Cancel
+"""
+days =int(input("Enter the number of days: "))
+if (days==0):
+    print("Good NO fine")
+elif(days>=5 and days<=10):
+    print("fine Amount",days*1)
+    
