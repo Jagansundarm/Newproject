@@ -1,0 +1,24 @@
+# Assignment Operator
+
+"""
+= Assignment
++= Addition
+-= Subtraction
+/= Division
+//= Floor Division
+**= Modulus
+*= Multiplication
+**= Exponention
+"""
+
+a=25
+a+= 5
+print(a)
+a-= 5
+print(a)
+a/= 25
+print(a)
+a%= 25
+print(a)
+a**= 25
+print(a)
